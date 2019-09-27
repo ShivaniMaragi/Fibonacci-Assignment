@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Callhub ASSIGNMENT
+</title>
+</head>
+<body>
+<h2>Nth Fibonacci Digit</h2>
+<form action="/external/" method="post">
+{% csrf_token %}
+Input Digit:
+<input type="number" name="param" required><br>
+<br>
+<input  type="submit" value="Generate nth digit">
+<br>
+<h3> Result :{{data1}} </h3>
+<h3>Time Taken : {{data_time}}</h3>
+
+
+</form>
+</body>
+</html>
